@@ -44,12 +44,3 @@ export const load = async (event) => {
        pb: fetchPocketBase(),
     }
 }
-
-
-
-
-  async function btnLogout(){
-    pb.authStore.clear()
-    console.log(pb.authStore)
-    loggedIn = false
-  }
